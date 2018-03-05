@@ -1,67 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
 <link rel="stylesheet" href="master.css">
-<title>Sideamsports</title>
+
 </head>
 <body>
-<nav class="nav is-fixed" role="navigation">
-  <div class="wrapper wrapper-flush">
-    <button class="nav-toggle">
-    <div class="icon-menu"> <span class="line line-1"></span> <span class="line line-2"></span> <span class="line line-3"></span> </div>
+
+<div class="topnav" id="myTopnav">
+  <div class="dropdown">
+    <button class="dropbtn" style="width:180px">TEAMS
+      <i class="fa fa-caret-down"></i>
     </button>
-    <div class="nav-container">
-      <ul class="nav-menu menu">
-      <li class="menu-item has-dropdown"> <a href="#!" class="menu-link">TEAMS</a>
-        <ul class="nav-dropdown menu">
-          <li><a href="#!" class="menus-link"><table>
-  <tr>
-    <th>MEN'S SPORTS</th>
-    <th>WOMEN'S SPORTS</th>
-  </tr>
-  <tr>
-    <td>BASEBALL</td>
-    <td>BASKETBALL</td>
-  </tr>
-  <tr>
-    <td>BASKETBALL</td>
-    <td>CROSS COUNTRY</td>
-  </tr>
-  <tr>
-    <td>CROSS COUNTRY</td>
-    <td></td>
-  </tr>
-</table>
-</a></li>  <!--if needed i will add a class here-->
-        </ul>
-      </li>
-      <li class="menu-item"> <a href="#!" class="menu-link">TICKETS</a> </li>
-      <li class="menu-item"> <a href="#!" class="menu-link">PATRIOT CLUB</a> </li>
-      <li class="menu-item"> <a href="#!" class="menu-link">INSIDE ATHLETICS</a> </li>
-      <li class="menu-item"> <a href="#!" class="menu-link">FAN CENTRAL</a> </li>
-    </ul>
+    <div class="dropdown-content"><a href="#"><table>
+      <tr>
+        <th>MEN'S SPORTS</th>
+        <th>WOMEN'S SPORTS</th>
+      </tr>
+      <tr>
+        <td>BASEBALL</td>
+        <td>BASKETBALL</td>
+      </tr>
+      <tr>
+        <td>BASKETBALL</td>
+        <td>CROSS COUNTRY</td>
+      </tr>
+      <tr>
+        <td>CROSS COUNTRY</td>
+        <td></td>
+      </tr>
+    </table></a>
     </div>
   </div>
-</nav>
-<main class="content" role="main">
-  <div class="wrapper wrapper-small">
-    <h1>When the top level menu item is hovered, show the dropdown.</h1>
-    <div class="jquery-script-ads">
-      <script type="text/javascript"><!--
-google_ad_client = "ca-pub-2783044520727903";
-/* jQuery_demo */
-google_ad_slot = "2780937993";
-google_ad_width = 728;
-google_ad_height = 90;
-//-->
-</script>
-<!--<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>-->
+  <a href="#home" class="home" style="width:180px">TICKETS</a>
+  <a href="#news" class="new" style="width:180px">PATRIOT CLUB</a>
+  <a href="#contact" class="contact" style="width:180px">INSIDE ATHLETIC</a>
+  <a href="#about" class="about" style="width:180px">FAN CENTRA</a>
+  <a href="javascript:void(x);" style="font-size:35px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
-</main>
-<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="master.js">
 
-</script>
+<div style="padding-left:16px">
+  <h2>Responsive Topnav with Dropdown</h2>
+</div>
+<script src="master.js"></script>
 </body>
 </html>
